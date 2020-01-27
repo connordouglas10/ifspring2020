@@ -1,0 +1,57 @@
+body{
+    background-color: #fafafa;
+    font-family: "Bangers";
+    font-family: "Avenir", sans-serif;
+}
+
+h1, h2, h3{
+    text-align: center;
+    
+}
+h1{
+    font-size: 24pt;
+}
+h2{
+    font-size: 18pt;
+}
+h3{
+    font-size: 14pt;
+    font-weight: 100;
+}
+#header{
+    margin-bottom: 40px;
+}
+#section1, #section2{
+    
+    margin-left: 33%;
+
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#section1 *:not(.chor){
+     margin-left: 25px;
+}
+
+#section2 *:not(.chor){
+    margin-left: 25px;
+}
+
+
+
+p{
+    transition: .5s ease;
+}
+
+
+
+p:hover{
+    transform: scale(1.05);
+    color:orangered;
+
+}
+
+.chor{
+    font-style: italic;
+    margin-left: 0px;
+}
