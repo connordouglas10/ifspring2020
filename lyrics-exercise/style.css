@@ -1,57 +1,71 @@
 body{
-    background-color: #fafafa;
-    font-family: "Bangers";
-    font-family: "Avenir", sans-serif;
+    background-color: #121C22;
+    font-family:"Avenir", sans-serif;
+    color:#5C92AD;
+}
+#content{
+    margin:0px auto;
+    height:650px;
+    width:100%;
+    padding:0px;
+}
+#left{
+    float:left;
+    width:50%;
+    height:100%;
 }
 
-h1, h2, h3{
-    text-align: center;
-    
+#right{
+    float:right;
+    width:50%;
+    height:100%;
 }
-h1{
-    font-size: 24pt;
-}
-h2{
-    font-size: 18pt;
-}
-h3{
-    font-size: 14pt;
-    font-weight: 100;
+#songplayer{
+    height:100%;
 }
 #header{
-    margin-bottom: 40px;
+    width:85%;
+    margin-left:15%;
+    height:130px;
+    margin-left:auto;
+    margin-right:auto;
+    color:#FCFCFC;
+    text-shadow: 0px 0px 3px white;
 }
-#section1, #section2{
-    
-    margin-left: 33%;
-
-    margin-top: 50px;
-    margin-bottom: 50px;
-}
-
-#section1 *:not(.chor){
-     margin-left: 25px;
+h2,h1,h3{
+    font-weight:100;
 }
 
-#section2 *:not(.chor){
-    margin-left: 25px;
+#lyrics{
+    width:90%;
+    margin-left:10%;
+    margin-top:50px;
+    height:450px;
+    overflow:scroll;
 }
 
-
-
-p{
-    transition: .5s ease;
+#lyrics *{
+    margin-top:5px;
 }
 
-
-
-p:hover{
-    transform: scale(1.05);
-    color:orangered;
-
+#lyrics::-webkit-scrollbar{
+    display:none;
+}
+#lyrics *:hover{
+    color:#F8E098;
+    text-shadow: 0px 0px 5px #E8877C;
+}
+#bg{
+    position:fixed;
+    right:0px;
+    top:-50px;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;    
+    font-size:140pt;
 }
 
-.chor{
-    font-style: italic;
-    margin-left: 0px;
+#bgtext{
+    margin-right:0px;
+    font-weight:900;
+    color:#0C1317;
 }
