@@ -1,0 +1,73 @@
+body{
+    background-color: #F7F7F6;
+    margin-left: 40px;
+    font-family:'Crimson Text', serif;
+    font-size: 24px;
+    color: #363636;
+}
+div{
+    margin-top: 100px;
+    margin-bottom:100px;
+}
+.info{
+    color:#969696;
+    font-family: "Arial", sans-serif;
+    font-size:20px;
+}
+.sub{
+    color:#969696;
+    font-family: 'Consolas', Courier, monospace;
+    font-size:14px;
+}
+.major{
+    color: #363636;
+    font-size: 1.5rem;
+}
+#weight .one{
+    font-weight: 400;
+}
+#weight .two{
+    font-weight: 600;
+}
+#weight .three{
+    font-weight: 700;
+}
+#style .one{
+    font-style:normal;
+}
+#style .two{
+    font-style:italic;
+}
+#spacing .one{
+    letter-spacing: normal;
+}
+#spacing .two{
+    letter-spacing: .6em;
+}
+#spacing .three{
+    letter-spacing: -.08em;
+}
+#decoration .one{
+    text-decoration: none;
+}
+#decoration .two{
+    text-decoration: line-through;
+}
+#decoration .three{
+    text-decoration: overline;
+}
+#decoration .four{
+    text-decoration: underline;
+}
+#transform .one{
+    text-transform: none;
+}
+#transform .two{
+    text-transform: capitalize;
+}
+#transform .three{
+    text-transform: lowercase;
+}
+#transform .four{
+    text-transform: uppercase;
+}
