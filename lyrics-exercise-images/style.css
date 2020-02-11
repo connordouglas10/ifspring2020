@@ -1,0 +1,85 @@
+body{
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.75), 
+        rgba(0, 0, 0, 0.75)
+      ), url("BGIm.jpg");
+    font-family:"Avenir", sans-serif;
+    color:#5C92AD;
+    background-size: 100%;
+}
+#content{
+    margin:0px auto;
+    height:650px;
+    width:100%;
+    padding:0px;
+}
+#left{
+    float:left;
+    width:40%;
+    height:100%;
+    margin: 50px;
+}
+
+#right{
+    float:right;
+    width:50%;
+    height:100%;
+}
+#songplayer{
+    height:100%;
+}
+#header{
+    width:300px;
+    height:170px;
+    margin-left:40px;
+
+    color:#FCFCFC;
+    text-shadow: 0px 0px 3px white;
+   
+}
+h2,h1,h3{
+    font-weight:100;
+}
+
+#lyrics{
+    font-family: "Oswald", sans-serif;
+    letter-spacing: .025em;
+    font-size: 14pt;
+    width:90%;
+    margin-left:50px;
+    width:250px;
+    height:460px;
+    overflow:scroll;
+    border-top: 3px solid #0C1317;
+    border-bottom: 3px solid #0C1317;
+}
+
+#lyrics *{
+    margin-top:5px;
+    font-weight: 200; 
+}
+
+#lyrics p{
+    text-transform: uppercase;
+}
+
+#lyrics::-webkit-scrollbar{
+    display:none;
+}
+#bg{
+    position:fixed;
+    right:0px;
+    top:-50px;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;    
+    font-size:115pt;
+}
+
+#bgtext{
+    font-family: "Monoton", "Avenir", sans-serif;
+    margin-right:0px;
+    font-weight:100;
+    color:#0C1317;
+    color:#F8E098;
+    text-shadow: 0px 0px 7px #FF908A;
+}
