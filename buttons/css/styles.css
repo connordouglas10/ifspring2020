@@ -1,0 +1,429 @@
+#btn_apple i{
+    color: #323232;
+    font-size: 100pt;
+    transition:.2s;
+    margin-top:50px;
+    line-height: 100%;
+}
+#btn_apple i:hover{
+    color: #d8d8d8;
+
+}
+
+#btn_ibm{
+    display: block;
+    width: 150px;
+    height: 100px;
+    box-sizing: border-box;
+    position:relative;
+    margin: auto;
+    margin-top: 75px;
+    padding-top: 8px;
+    background-color: #0067F9;
+    color: #fff;
+    text-align: center;
+    font-size: 60px;
+    transition: all .2s;
+    font-family: "Helvetica Neue",Arial,sans-serif;
+    text-decoration: none;
+}
+#btn_ibm:after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 5px;
+    bottom: 25px;
+    left: 0px;
+    background-color: white;
+    visibility: hidden;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+}
+#btn_ibm:hover:after{
+    visibility: visible;
+    -webkit-transform: scaleX(.8);
+    transform: scaleX(.8);
+}
+#btn_ibm:hover{
+
+    background-color: rgb(0, 73, 175);
+}
+
+#btn_sardella{
+    display: block;
+    height: 100px;
+    box-sizing: border-box;
+    margin: auto;
+    margin-top: 75px;
+    padding-top: 20px;
+    color: #00FFd1;
+    text-align: center;
+    font-size: 40px;
+    transition: all .2s;
+    font-family: "Times New Roman", serif;
+    font-style: italic;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+#btn_sardella:hover{
+    text-shadow: -1px -1px 0 #0019BF, 1px -1px 0 #0019BF, -1px 1px 0 #0019BF, 1px 1px 0 #0019BF;
+    color: white;
+}
+
+#btn_tnshow{
+    display: block;
+    width: 150px;
+    height: 150px;
+    box-sizing: border-box;
+    border-radius: 75px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #0C0E11;
+    margin: auto;
+    margin-top: 50px;
+    padding-left: 10px;
+    padding-right:10px;
+    padding-top: 18px;
+    color: #0C0E11;
+    text-align: center;
+    font-size: 25px;
+    transition: all .2s ease;
+    font-family: "Futura",Arial,sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+#btn_tnshow:hover{
+    color: white;
+
+    background-color: #0C0E11;
+}
+
+#btn_nike{
+    display: block;
+    width: 200px;
+    height: 100px;
+    box-sizing: border-box;
+
+    margin: auto;
+    margin-top: 75px;
+    padding-top: 8px;
+    background-color: #111111;
+    color: #fff;
+    text-align: center;
+    font-size: 60px;
+    transition: all .2s;
+    font-family: "Futura",Arial,sans-serif;
+    font-style: oblique;
+    text-shadow: 0px 0px 3px white;
+    font-weight: 900;
+    letter-spacing: -.05em;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+#btn_nike:hover{
+    background-color: white;
+    text-shadow: 0px 0px 3px #111111;
+    color:#111111;
+    padding-left:25px;
+}
+#btn_tesla{
+    display: block;
+    width: 150px;
+    height: 70px;
+    box-sizing: border-box;
+    margin: auto;
+    margin-top: 75px;
+    border-radius:35px;
+    padding-top: 16px;
+    padding-left: 10px;
+    border-color: #D4000B;
+    border-style: solid;
+    border-width: 2px;
+    background-color: #fff;
+    color: #D4000B;
+    text-align: center;
+    font-size: 25px;
+    transition: all .2s;
+    letter-spacing: .2em;
+    font-family: "Avenir",Arial,sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+#btn_tesla:hover{
+    background-color: #D4000B;
+    color:#fff;
+    letter-spacing: .3em;
+}
+
+#btn_newyorker img{
+    width:200px;
+    display:block;
+    margin:auto;
+    margin-top: 70px;
+    transition:.2s;
+}
+
+#btn_newyorker img:hover{
+    transform: scale(1.1);
+}
+
+#btn_npr img{
+    width:200px;
+    display:block;
+    margin:auto;
+    margin-top: 70px;
+    transition:.2s;
+    filter: grayscale(100%);
+}
+
+#btn_npr img:hover{
+    filter: grayscale(0%);
+}
+
+#btn_fitbit{
+    text-align: center;
+    text-decoration: none;
+    font-size: 30px;
+    margin-top: 100px;
+    display:block;
+    text-transform: lowercase;
+    letter-spacing: .05em;
+    color: #002B39;
+    transition: .2s;
+}
+#btn_fitbit:hover{
+    padding-left: 15px;
+    color: #00ACB5;
+   
+}
+
+#btn_pottermore{
+    text-align: center;
+    text-decoration: none;
+    font-size: 35px;
+    margin-top: 100px;
+    display:block;
+    font-family: "Bluu Next",serif;
+    text-transform: capitalize;
+    letter-spacing: .1em;
+    color: #D7A971;
+    transition: .2s;
+}
+#btn_pottermore:hover{
+    color: #6665B2;
+}
+#btn_ofa{
+    display: block;
+    width: 180px;
+    height: 50px;
+    box-sizing: border-box;
+
+    margin: auto;
+    margin-top: 100px;
+    padding-top: 10px;
+    background-color: #1F3240;
+    color: #fff;
+    text-align: center;
+    font-size: 25px;
+    transition: all .2s;
+    font-family: "Futura",Arial,sans-serif;
+    text-decoration: none;
+    text-decoration: overline;
+    text-transform: uppercase;
+}
+
+#btn_ofa:hover{
+    margin-top: 90px;
+    background-color: #fff;
+    color:#1F3240;
+}
+#btn_lyft{
+    display: block;
+    width: 150px;
+    height: 70px;
+    box-sizing: border-box;
+    margin: auto;
+    margin-top: 75px;
+    border-radius:35px;
+    padding-top: 12px;
+    padding-left: 7px;
+    color:white;
+    background-color: #FF01BB;
+    text-align: center;
+    font-size: 35px;
+    transition: all .2s;
+    letter-spacing: -.05em;
+    font-family: "Avenir",Arial,sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+#btn_lyft:hover{
+    transform: scale(.9);
+}
+#btn_ideo{
+    display: block;
+    width: 150px;
+    height: 70px;
+    box-sizing: border-box;
+    margin: auto;
+    margin-top: 75px;
+    padding-top: 15px;
+    padding-left: 15px;
+    border-color: #231F20;
+    border-style: solid;
+    border-width: 2px;
+    background-color: #fff;
+    color: #231F20;
+    text-align: center;
+    font-size: 25px;
+    transition: all .2s;
+    letter-spacing: .5em;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-decoration: none;
+
+}
+#btn_ideo:hover{
+    background-color: #62CCC9;
+    color:white;
+    border-color: #FA6238;
+    border-width: 4px;
+}
+#btn_bissingers img{
+    width:120px;
+    display:block;
+    margin:auto;
+    margin-top: 45px;
+    transition:.2s;
+    filter: grayscale(100%);
+
+}
+
+#btn_bissingers img:hover{
+    filter: grayscale(0%);
+    transform: scale(1.1);
+
+}
+#btn_michaelkors{
+    text-align: center;
+    text-decoration: none;
+    font-size: 35px;
+    margin-top: 100px;
+    display:block;
+    font-family: "Avenir",sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: -.05em;
+    color: black;
+    transition: .2s;
+}
+#btn_michaelkors:hover{
+    color: gray;
+}
+#btn_moo{
+    font-family: "Helvetica Nueu", Helvetica, Arial, sans-serif;
+    text-decoration: none;
+    font-size: 35px;
+    display:block;
+    font-weight: 300;
+    width:80px;
+    margin:auto;
+    margin-top: 100px;
+    position: relative;
+    color: #007C5F;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+#btn_moo:before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 2px;
+    background-color: #007C5F;;
+    visibility: hidden;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+}
+#btn_moo:hover:before{
+    visibility: visible;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+}
+#btn_moo:hover{
+    color: #007C5F;
+}
+#btn_electra{
+    display: block;
+    width: 180px;
+    height: 70px;
+    box-sizing: border-box;
+    margin: auto;
+    margin-top: 75px;
+    padding-top: 15px;
+    padding-left: 10px;
+    background-color: #00a9c9;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    transition: all .2s;
+    letter-spacing: .25em;
+    font-family: "Avenir",Helvetica,Arial,sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-decoration: none;
+
+}
+#btn_electra:hover{
+    color: #00a9c9;
+    background-color: white;
+}
+#btn_facebook i{
+    color: #3369AF;
+    font-size: 90pt;
+    transition:.2s;
+    margin-top:50px;
+    line-height: 100%;
+}
+#btn_facebook i:hover{
+    transform: scale(1.1);
+
+}
+#btn_instagram i{
+    color: #262626;
+   
+    font-size: 90pt;
+    transition:.2s;
+    margin-top:50px;
+    line-height: 100%;
+    filter: grayscale(0%);
+
+}
+#btn_instagram i:hover{
+    color: #262626;
+    background: -webkit-linear-gradient(#d63c6d, #fbef5a);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    margin-top:40px;
+    
+}
+#btn_dcc img{
+    width:200px;
+    display:block;
+    margin:auto;
+    margin-top: 20px;
+    transition:.2s ease;
+}
+
+#btn_dcc img:hover{
+    transform: scale(.9);
+}
