@@ -1,0 +1,92 @@
+body{
+    font-family:"Playfair Display", serif;
+    background-color: #fafafa;
+    color:#121212;
+    padding:0px;
+    margin:0px;
+}
+img{
+    width:100%;
+    position: relative;
+    z-index: 1;
+    transform: rotate(180deg)
+}
+#content{
+    width:375px;
+    background-color: white;
+    overflow: hide;
+    box-shadow: 0px 0px 8px #A1A1A1;
+    margin: auto;
+    margin-bottom: 0px;
+}
+.sect{
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+}
+#subtitle{
+    font-family: "Raleway", sans-serif;
+}
+#subtitle p em{
+    font-weight: 300;
+}
+#header{
+    text-align: center;
+    position:relative;
+    margin-top: -15px;
+    padding-top: 20px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-color: white;
+    z-index: 2;
+}
+h1{
+    font-size: 50px;
+    margin-top: 0px;
+    font-weight: 900;
+}
+h2{
+    font-size: 38px;
+    font-weight: 100;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+a{
+    color:inherit;
+    text-decoration: none;
+}
+em{
+    color:#BFBFBF;
+}
+#ingredients{
+    border-top: 1px solid #D1D1D1;
+}
+h5{
+    font-size: 24px;
+    font-weight: 400;
+}
+#steps{
+    border-top: 1px solid #D1D1D1;
+    margin-bottom: 0px;
+}
+h3{
+    text-align: center;
+    font-size: 30px;
+    background-color: #FFDE54;
+}
+
+ul, ol{
+    padding-left:15px;
+}
+
+li{
+    padding-bottom:15px;
+    font-family: "Raleway", sans-serif;
+    line-height: 1.4em;
+}
+strong{
+    font-weight: 800;
+   
+}
+
