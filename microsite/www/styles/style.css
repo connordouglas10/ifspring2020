@@ -1,0 +1,466 @@
+@media only screen and (max-width: 900px) {
+    body{
+        padding:0px;
+        margin:0px;
+        font-family: "Avenir", helvetica, sans-serif ;
+        color: #313030;
+    }
+    h2{
+        text-align: center;
+    }
+    .background_img{
+        width: 100%;
+    }
+    #headshot{
+    margin-top: 20px;
+    }
+    .titleCont{
+        width:100%;
+        text-align: center;
+    }
+    h1, h2{
+        font-family: "Tinos", serif;
+    }
+    h1{
+        font-size: 50px;
+        letter-spacing: .07em;
+        margin-top: 20px;
+        font-weight: 400;
+        margin-bottom: 30px;
+    }
+    ul{
+        padding:0px;
+        margin: 0px;
+        list-style: none;
+        width:100%;
+    }
+    #navList{
+        display:block;
+        width:100%;
+        margin: 0px auto;
+    }
+    #navList li{
+        display: block;
+        letter-spacing: .1em;
+        font-size: 20px;
+        transition:.2s ease;
+    }
+    a{
+        color: #313030;;
+        text-decoration: none;
+        
+    }
+    #aboutCont{
+        background: linear-gradient(
+            rgba(255, 255, 255, 0.5), 
+            rgba(255, 255, 255, 0.5)
+        ), url("../imgs/JeremyJones_byClarkFyans.jpg");
+        background-size: auto 100%;
+        background-position: center center;
+        padding:15px;
+        box-sizing: border-box;
+
+    }
+    .card{
+        padding: 10px;
+        box-sizing: border-box;
+        width: 100%;
+        height:100%;
+        background-color: rgba(255, 255, 255, 0.75);
+        box-shadow: 0px 0px 8px #8A8787;
+    }
+    h2{
+        font-size: 20px;
+        margin-top: 0px;
+        letter-spacing: .07em;
+
+    }
+    .text_box{
+
+        width: 100%;
+        line-height: 20px;
+        margin:0px;
+    }
+    .large_img{
+        width:100%;
+        height:auto;
+    }
+    .small_img{
+        display: none;
+    }
+
+    #moviesCont{
+        background: linear-gradient(
+            rgba(255, 255, 255, 0.5), 
+            rgba(255, 255, 255, 0.5)
+        ), url("../imgs/jeremy-jones-perspectives-mary-walsh-01.jpg");
+        background-size: auto 100%;
+        background-position: center center;
+        padding:15px;
+        box-sizing: border-box;
+    }
+    #movie_poster{
+        width:100%;
+    }
+    #movie_text_box{
+        width:100%;
+    }
+    #movie_text_box h2{
+        text-align: center;
+    }
+    #movies_list{
+        text-align: center;
+        font-size: 20px;
+    }
+    #jonesCont{
+        background: linear-gradient(
+            rgba(255, 255, 255, 0.5), 
+            rgba(255, 255, 255, 0.5)
+        ), url("../imgs/jones20-action-umt-2.jpg");
+        background-size: auto 100%;
+        background-position: center center;
+        padding:15px;
+        box-sizing: border-box;
+    }
+    #jones_card img{
+        width:100%;
+    }
+    #powCont{
+        background: linear-gradient(
+            rgba(255, 255, 255, 0.5), 
+            rgba(255, 255, 255, 0.5)
+        ), url("../imgs/5eb2e59a314408f387483dd9f49488b5.jpg");
+        background-size: auto 100%;
+        background-position: center center;
+        padding:15px;
+        box-sizing: border-box;
+    }
+    #pow_text_box{
+        width:100%;
+    }
+    #pow_logo_cont{
+        width:100%;
+
+    }
+    #pow_logo_cont img{
+        width:100%;
+    }
+}
+/**
+
+
+
+
+
+
+
+
+#jonesCont{
+    margin-top: 100px;
+    background: linear-gradient(
+        rgba(255, 255, 255, 0.5), 
+        rgba(255, 255, 255, 0.5)
+      ), url("../imgs/jones20-action-umt-2.jpg");
+      background-size: 1920px auto;
+      background-position: center center;
+}
+#jones_card img{
+    position:absolute;
+    height:350px;
+    top:30px;
+    right:30px;
+    box-shadow: 0px 0px 5px #8A8787;
+}
+
+
+#powCont{
+    margin-top: 100px;
+    background: linear-gradient(
+        rgba(255, 255, 255, 0.5), 
+        rgba(255, 255, 255, 0.5)
+      ), url("../imgs/5eb2e59a314408f387483dd9f49488b5.jpg");
+      background-size: 1920px auto;
+      background-position: center center;
+}
+#pow_text_box{
+    width:100%;
+}
+#pow_text_box .text_cont{
+    width:600px;
+}
+
+#pow_logo_cont{
+    position:absolute;
+    width:300px;
+    left:50%;
+    margin-left:-150px;
+    bottom:30px;
+    overflow:hidden;
+    height:100px;
+}
+#pow_logo_cont img{
+    position:absolute;
+    width:100%;
+    top:-100px;
+}
+
+*/
+@media only screen and (min-width: 900px) {
+    body{
+        padding:0px;
+        margin:0px;
+        font-family: "Avenir", helvetica, sans-serif ;
+        color: #313030;
+    
+    }
+    .screenCont{
+        width:100%;
+        height:700px;
+        position:relative;
+      
+        
+    }
+    .background_img{
+        display:block;
+        position:absolute;
+        bottom:0px;
+        z-index: 0;
+    }
+    #introDiv{
+        height:800px;
+    }
+    
+    #headshot{
+        width:900px;
+        position:absolute;
+        display:block;
+        left:50%;
+        margin-left:-450px;
+        bottom:0px;
+    }
+    
+    .gradient_up{
+        background: linear-gradient(rgba(255,255,255,0),rgba(255,255,255,.2),rgba(255,255,255,.4),rgba(255,255,255,.8),rgba(255,255,255,1));
+        display:block;
+        width:100%;
+        min-height:100px;
+        position:absolute;
+        bottom:0px;
+        z-index:3;
+    }
+    .gradient_down{
+        background: linear-gradient(rgba(255,255,255,1),rgba(255,255,255,.8),rgba(255,255,255,.4),rgba(255,255,255,.2),rgba(255,255,255,0));
+        display:block;
+        width:100%;
+        min-height:100px;
+        position:absolute;
+        top:0px;
+        z-index:3;
+    }
+    .titleCont{
+        position:absolute;
+        width:800px;
+        left:50%;
+        margin-left: -400px;
+        z-index: 2;
+        text-align: center;
+    }
+    h1, h2{
+        font-family: "Tinos", serif;
+    }
+    h1{
+        font-size: 90px;
+        letter-spacing: .07em;
+        margin-top: 20px;
+        font-weight: 400;
+        margin-bottom: 30px;
+    }
+    
+    ul{
+        padding:0px;
+        margin: 0px;
+        list-style: none;
+    }
+    #navList{
+        display:block;
+        left:50%;
+        width:500px;
+        margin: 0px auto;
+    }
+    #navList li{
+        display: block;
+        float: left;
+        margin-left:20px;
+        margin-right: 20px;
+        letter-spacing: .1em;
+        font-size: 20px;
+        transition:.2s ease;
+    }
+    a{
+        color: #313030;;
+        text-decoration: none;
+        
+    }
+    #navList li:hover{
+        transform: scale(1.1);
+    }
+    #aboutCont{
+        margin-top: 100px;
+        background: linear-gradient(
+            rgba(255, 255, 255, 0.5), 
+            rgba(255, 255, 255, 0.5)
+          ), url("../imgs/JeremyJones_byClarkFyans.jpg");
+          background-size: 1920px auto;
+          background-position: center center;
+    }
+    .card{
+        position:absolute;
+        top:150px;
+        width: 650px;
+        height:350px;
+        left:50%;
+        margin-left: -325px;
+        background-color: rgba(255, 255, 255, 0.75);
+        padding:30px;
+        box-shadow: 0px 0px 8px #8A8787;
+    }
+    h2{
+        font-size: 30px;
+        margin-top: 0px;
+        letter-spacing: .07em;
+    
+    }
+    .text_box{
+        position:absolute;
+        width: 350px;
+        left:30px;
+        line-height: 30px;
+    }
+    .text_cont{
+        padding-left: 20px;
+        width: 270px;
+    }
+    
+    .large_img{
+        width:230px;
+        height:230px;
+        box-shadow: 0px 0px 5px #8A8787;
+    }
+    #large_img_1{
+        position: absolute;
+        right:30px;
+        top:30px;
+    }
+    .small_img{
+        width:110px;
+        height:110px;
+        box-shadow: 0px 0px 5px #8A8787;
+    }
+    #small_img_1, #small_img_2{
+        position: absolute;
+    
+    }
+    #small_img_1{
+        right:30px;
+        bottom:30px;
+    }
+    #small_img_2{
+        right:150px;
+        bottom:30px;
+    }
+    
+    
+    
+    
+    
+    #moviesCont{
+        margin-top: 100px;
+        background: linear-gradient(
+            rgba(255, 255, 255, 0.5), 
+            rgba(255, 255, 255, 0.5)
+          ), url("../imgs/jeremy-jones-perspectives-mary-walsh-01.jpg");
+          background-size: 1920px auto;
+          background-position: center center;
+    }
+    
+    
+    #movie_poster{
+        position:absolute;
+        height:275px;
+        width:auto;
+        left:30px;
+        top:30px;
+        box-shadow: 0px 0px 5px #8A8787;
+    }
+    #movie_text_box{
+        position: absolute;
+        width:300px;
+        height:275px;
+        left:350px;
+    }
+    #movie_text_box h2{
+        text-align: center;
+    }
+    #movies_list{
+        text-align: center;
+        font-size: 20px;
+    }
+    #movie_text_cont{
+        margin: 0px;
+        width:100%;
+        padding:0px;
+        line-height: 30px;
+    }
+    #movie_card{
+        height:275px;
+    }
+    
+    #jonesCont{
+        margin-top: 100px;
+        background: linear-gradient(
+            rgba(255, 255, 255, 0.5), 
+            rgba(255, 255, 255, 0.5)
+          ), url("../imgs/jones20-action-umt-2.jpg");
+          background-size: 1920px auto;
+          background-position: center center;
+    }
+    #jones_card img{
+        position:absolute;
+        height:350px;
+        top:30px;
+        right:30px;
+        box-shadow: 0px 0px 5px #8A8787;
+    }
+    
+    
+    #powCont{
+        margin-top: 100px;
+        background: linear-gradient(
+            rgba(255, 255, 255, 0.5), 
+            rgba(255, 255, 255, 0.5)
+          ), url("../imgs/5eb2e59a314408f387483dd9f49488b5.jpg");
+          background-size: 1920px auto;
+          background-position: center center;
+    }
+    #pow_text_box{
+        width:100%;
+    }
+    #pow_text_box .text_cont{
+        width:600px;
+    }
+    
+    #pow_logo_cont{
+        position:absolute;
+        width:300px;
+        left:50%;
+        margin-left:-150px;
+        bottom:30px;
+        overflow:hidden;
+        height:100px;
+    }
+    #pow_logo_cont img{
+        position:absolute;
+        width:100%;
+        top:-100px;
+    }
+  }
